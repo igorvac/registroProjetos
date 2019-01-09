@@ -1,0 +1,132 @@
+/* CSS GERAL */
+
+body{
+}
+
+.holder{
+    background-color: #FFFFFF;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.45);
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.container{
+    padding: 30px;
+    background-image: url("textura_web.svg");
+    background-repeat: repeat;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.regProj{
+    margin: 30px auto;
+    width: 600px;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 30px;
+    border:1px solid #cccccc;
+    padding: 5px;
+}
+
+.machines{
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.machines div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.machines div p{
+    margin-left: 25px;
+}
+
+.radio{
+    margin: 0;
+    margin-top: 6px;
+    margin-right: 6px;
+    display: block;
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+
+.buttonSubmit{
+    background-color:#aa0000;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.buttonSubmit:hover{
+    background-color:#dd0000;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.titleLarge{
+    
+}
+
+.titleMedium{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.titleSmall{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*
+
+.input1{
+    width: 300px;
+    height: inherit;
+}
+
+.input2{
+    width: 300px;
+    height: inherit;
+    
+}
+
+form * {
+     display: block;
+    margin: 10px;
+}
+
+*/
